@@ -1,5 +1,5 @@
 var grid = [];
-var res = 12;
+var res = 10;
 var rows, cols;
 var newGrid = [];
 var looping = true;
@@ -8,7 +8,7 @@ var pauseButton;
 
 function setup() {
 
-    createCanvas(1200, 1200);
+    createCanvas(1000, 1000);
 
     rows = height / res;
     cols = width / res;
