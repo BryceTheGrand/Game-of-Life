@@ -23,7 +23,7 @@ function setup() {
 
         for (let j = 0; j < cols; j++) {
 
-            grid[i][j] = new Cell(i, j, false);
+            grid[i][j] = new Cell(i, j, floor(random(2)));
 
         }
 
@@ -35,7 +35,7 @@ function setup() {
 
     }
 
-    frameRate(5);
+    frameRate(10);
 
     pauseButton = createButton("Pause/Resume");
     pauseButton.mouseClicked(() => {
